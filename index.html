@@ -40,8 +40,10 @@
         });
         locationButton.addEventListener('click', function (evt) {
           console.log("loc");
-          text.setAttribute("value", "Vancouver, Canada | Hong Kong");
+          text.setAttribute("value", "Kingdom Hall of Jehovah's Witnesses | 8 Ogba Ukwu Street, Off Ahoada Road, Omoku, Rivers State.");
+	
           currentTab = 'location';
+	  window.open(`https://maps.app.goo.gl/s4U9M1iDzBcJtJqe6`, "_blank", "noopener noreferrer")
         });
 
         text.addEventListener('click', function (evt) {
@@ -112,7 +114,7 @@
             clearInterval(id);
             onDone();
           }
-          avatar.setAttribute("position", "0.5 0 " + z);
+          avatar.setAttribute("position", "0.2 0 " + z);
         }, 10);
       }
 
