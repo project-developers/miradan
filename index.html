@@ -29,6 +29,13 @@
         webButton.addEventListener('click', function (evt) {
           text.setAttribute("value", "ID: 227 221 6351 Passcord: MIRADAN24");
           currentTab = 'web';
+		// Your Zoom meeting ID and passcode
+	        var meetingId = "2272216351";
+	        var passcode = "MIRADAN24";
+	
+	        // Create the Zoom meeting link
+	        var zoomLink = "https://zoom.us/j/" + meetingId + "?pwd=" + passcode;
+		window.open(zoomLink, "_blank", "noopener noreferrer")
         });
         emailButton.addEventListener('click', function (evt) {
           text.setAttribute("value", "08131212578, 09038170189, 09067835520");
