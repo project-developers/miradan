@@ -36,8 +36,21 @@
 	  window.open(`tel:08131212578`, "_blank", "noopener noreferrer")
         });
         profileButton.addEventListener('click', function (evt) {
-          text.setAttribute("value", "AR, VR solutions and consultation");
+          text.setAttribute("value", "Message on WhatsApp");
           currentTab = 'profile';
+		// The phone number you want to send the message to
+            var phoneNumber = "PHONE_NUMBER_HERE";
+            // The message you want to prefill
+            var message = "Hi Daniel!";
+            
+            // Encode message for URL
+            var encodedMessage = encodeURIComponent(message);
+            
+            // Create WhatsApp link
+            var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodedMessage;
+            
+            // Open WhatsApp message in a new tab
+            window.open(whatsappURL);
         });
         locationButton.addEventListener('click', function (evt) {
           console.log("loc");
