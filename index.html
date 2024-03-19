@@ -33,13 +33,13 @@
         emailButton.addEventListener('click', function (evt) {
           text.setAttribute("value", "08131212578, 09038170189, 09067835520");
           currentTab = 'email';
-	  window.open(`tel:08131212578`, "_blank", "noopener noreferrer")
+	  window.open(`tel:+2348131212578`, "_blank", "noopener noreferrer")
         });
         profileButton.addEventListener('click', function (evt) {
           text.setAttribute("value", "Message on WhatsApp");
           currentTab = 'profile';
 		// The phone number you want to send the message to
-            var phoneNumber = "PHONE_NUMBER_HERE";
+            var phoneNumber = "+2348131212578";
             // The message you want to prefill
             var message = "Hi Daniel!";
             
@@ -50,7 +50,7 @@
             var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodedMessage;
             
             // Open WhatsApp message in a new tab
-            window.open(whatsappURL);
+            window.open(whatsappURL, "_blank", "noopener noreferrer");
         });
         locationButton.addEventListener('click', function (evt) {
           console.log("loc");
