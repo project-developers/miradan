@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rings
+* source:	https://sketchfab.com/3d-models/rings-e0f24f571cab4b688bf02d1f901dcf34
+* author:	WISPELORD (https://sketchfab.com/WISPELORD)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rings" (https://sketchfab.com/3d-models/rings-e0f24f571cab4b688bf02d1f901dcf34) by WISPELORD (https://sketchfab.com/WISPELORD) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
