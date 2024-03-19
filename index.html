@@ -252,7 +252,7 @@
         <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable">
         </a-camera>
 
-        <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
+        <a-entity>
           <a-plane src="#card" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane>
 
           <a-entity visible=false id="portfolio-panel" position="0 0 -0.01">
@@ -296,6 +296,7 @@
           <a-text id="text" class="clickable" value="" color="black" align="center" width="2" position="0 -1 0" geometry="primitive:plane; height: 0.1; width: 2;" material="opacity: 0.5"></a-text>
         </a-entity>
 	<a-entity
+		 id="mytarget" mytarget mindar-image-target="targetIndex: 0"
             gltf-model="url(https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models/2.0/Duck/glTF/Duck.gltf)"
             scale="0.1 0.1 0.1"
             position="0 0 -5">
