@@ -34,7 +34,7 @@
 	        var passcode = "MIRADAN24";
 	
 	        // Create the Zoom meeting link
-	        var zoomLink = "https://zoom.us/j/" + meetingId + "?pwd=" + passcode;
+	        var zoomLink = "zoommtg://zoom.us/join?action=join&confno=" + meetingId + "&pwd=" + passcode;
 		window.open(zoomLink, "_blank", "noopener noreferrer")
         });
         emailButton.addEventListener('click', function (evt) {
